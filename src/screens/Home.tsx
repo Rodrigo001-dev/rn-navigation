@@ -7,8 +7,9 @@ import { useNavigation } from '@react-navigation/native';
 // type StackProps = NativeStackScreenProps<StackParamList, 'Home'>;
 
 export function Home() {
+  const navigation = useNavigation();
+  
   function openScreen() {
-    const navigation = useNavigation();
     navigation.navigate('screenA');
   };
 
