@@ -28,6 +28,8 @@ O Drawer navigation é utilizado quando temos menus grandes, muitas opções.
 
 O Stack navigator é uma navegação padrão em pilhas que pode ser utilizada para quando você quer deixar a atenção do usuário somente naquela determinada tela que vai ser aberta em cima da outra.
 
+[Veja mais do React-Navigation aqui!](https://reactnavigation.org/)
+
 
 ## 🚀 Tecnologias/Bibliotecas utilizadas
   
