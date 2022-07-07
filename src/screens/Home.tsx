@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 export function Home() {
   return (
-    <View>
+    <View style={{ flex: 1, backgroundColor: 'red' }}>
 
     </View>
   );
