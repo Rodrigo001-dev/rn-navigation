@@ -10,7 +10,7 @@ export function Home() {
   const navigation = useNavigation();
   
   function openScreen() {
-    navigation.navigate('screenA');
+    navigation.navigate('screenA', { name: 'Rodrigo' });
   };
 
   return (
