@@ -1,12 +1,13 @@
 import React from 'react';
-import { useRoute } from '@react-navigation/native';
-import { View, Text } from 'react-native';
+import { useRoute, useNavigation } from '@react-navigation/native';
+import { View, Text, Button } from 'react-native';
 
 type ParamsProps = {
   name: string;
 };
 
 export function ScreenA() {
+  const navigation = useNavigation();
   const route = useRoute();
   const { name } = route.params as ParamsProps;
 
@@ -15,6 +16,8 @@ export function ScreenA() {
       <Text style={{ fontSize: 24, color: '#FFF' }}>
         {name}
       </Text>
+
+      <Button title="Voltar" onPress={() => navigation.goBack()} />
     </View>
   );
 }
