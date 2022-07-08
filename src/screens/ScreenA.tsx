@@ -1,10 +1,20 @@
 import React from 'react';
-import { View } from 'react-native';
+import { useRoute } from '@react-navigation/native';
+import { View, Text } from 'react-native';
+
+type ParamsProps = {
+  name: string;
+};
 
 export function ScreenA() {
-  return (
-    <View style={{ flex: 1, backgroundColor: 'blue' }}>
+  const route = useRoute();
+  const { name } = route.params as ParamsProps;
 
+  return (
+    <View style={{ flex: 1, backgroundColor: 'blue', alignItems: 'center', justifyContent: 'center' }}>
+      <Text style={{ fontSize: 24, color: '#FFF' }}>
+        {name}
+      </Text>
     </View>
   );
 }
