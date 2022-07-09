@@ -6,21 +6,11 @@ Utilizando o React-Navigation para fazer navegações entre as páginas do app
 
 Para trabalhar com navegação utilizando o React-Navigation temos algumas opções de estratégias de navegação: Stack navigator, Tab navigation e Drawer navigation.
 
-<LINKEDIN>
-Mas qual a diferença entre elas?
-</LINKEDIN>
-
 O Stack navigator é uma navegação em pilhas, ou seja, vai ser aberto uma tela em cima de outra, uma tela sobre a outra.
 
 O Tab navigation é a navegação através de menus que ficam na parte inferior do app, que possibilitam o acesso as telas da aplicação.
 
 O Drawer navigation é a navegação que é aberta uma barra lateral no app, essa forma de navegação é uma excelente estratégia quando temos muitas opções.
-
-<LINKEDIN>
-Mas qual estratégia de navegação utilizar?
-
-A resposta é depende
-</LINKEDIN>
 
 O Tab navigation vai combinar muito bem para deixar na parte inferior do app as principais telas(as mais importantes) da aplicação, por exemplo: Home page.
 
