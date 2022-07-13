@@ -1,9 +1,5 @@
 ## :page_with_curl: Projeto
 
-<LINKEDIN>
-Utilizando o React-Navigation para fazer navegações entre as páginas do app
-</LINKEDIN>
-
 Para trabalhar com navegação utilizando o React-Navigation temos algumas opções de estratégias de navegação: Stack navigator, Tab navigation e Drawer navigation.
 
 O Stack navigator é uma navegação em pilhas, ou seja, vai ser aberto uma tela em cima de outra, uma tela sobre a outra.
